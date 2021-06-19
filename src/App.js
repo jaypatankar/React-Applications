@@ -1,9 +1,11 @@
 import './App.css';
-import Counter from './projects/counter';
+import Counter from './projects/Counter';
+import Calculator from './projects/Calculator';
 
 function App() {
 return(
-  <Counter/>
+  // <Counter/>
+  <Calculator/>
 )
 }
 
