@@ -11,7 +11,7 @@ const Counter = () => {
         <div>
            <h3>counter = {count}</h3>
            <button onClick={incrementCount}>+</button>
-           <button disabled={count == 0} onClick= {decrementCount} handleDec>-</button>
+           <button disabled={count === 0} onClick= {decrementCount} handleDec>-</button>
         </div>
       </div>
     );
